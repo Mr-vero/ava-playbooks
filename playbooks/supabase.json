@@ -1,0 +1,47 @@
+{
+  "id": "supabase",
+  "name": "Supabase",
+  "url": "https://supabase.com/dashboard",
+  "category": "Developer backend",
+  "accent": "#3ECF8E",
+  "tagline": "Postgres, auth, storage, edge functions — a lot of surface for a newcomer.",
+  "firstWin": "your first project's dashboard, open and showing Healthy",
+  "path": [
+    "sign in (GitHub or email)",
+    "create an organization (name it, choose the free plan)",
+    "create a new project — name it, set a strong database password (the Generate button works), pick the closest region",
+    "click Create new project and wait for it to provision",
+    "land on the project dashboard — once it shows Healthy, they're in and onboarding is DONE"
+  ],
+  "optional": "If they want their API keys afterward, they live under Settings → API Keys (Project URL is on that same page). This is a bonus, not required to finish.",
+  "journey": [
+    "Sign in",
+    "Create an organization",
+    "Create a project",
+    "Wait for provisioning",
+    "Open your dashboard"
+  ],
+  "etaMin": 6,
+  "knowledge": [
+    {
+      "keywords": "password database generate strong project",
+      "text": "On the Create Project screen, the database password must be strong. The 'Generate a password' link fills a strong one automatically — click it if theirs is rejected as weak."
+    },
+    {
+      "keywords": "region project location latency",
+      "text": "Pick the region closest to the user or their users — it can't be changed after the project is created, only by making a new project."
+    },
+    {
+      "keywords": "api keys anon publishable url settings",
+      "text": "The Project URL and API keys live under Settings → API Keys. The 'publishable'/anon key is safe for browser code; the secret/service key must stay server-side."
+    },
+    {
+      "keywords": "free plan pricing organization tier",
+      "text": "The Free plan is enough to start: 2 free projects, 500MB database, 1GB storage. You choose the plan when creating the organization."
+    },
+    {
+      "keywords": "provision wait healthy time",
+      "text": "A new project takes about 2 minutes to provision. The dashboard shows 'Setting up' then 'Healthy' when it's ready to use."
+    }
+  ]
+}

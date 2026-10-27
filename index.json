@@ -1,0 +1,143 @@
+{
+  "version": 1,
+  "playbooks": [
+    {
+      "id": "aws",
+      "name": "AWS Console",
+      "category": "Cloud infrastructure",
+      "tagline": "The classic maze — regions, services, IAM. Easy to get lost.",
+      "accent": "#FF9900",
+      "url": "https://console.aws.amazon.com",
+      "steps": 5,
+      "facts": 3,
+      "journey": [
+        "Sign in",
+        "Choose your region",
+        "Find your service",
+        "Open its dashboard",
+        "Start your first resource"
+      ],
+      "file": "playbooks/aws.json",
+      "sha256": "bd08f892c3b0a185f353992345f8919daf917b44e060a67fea35c9dd93bd9b03",
+      "author": "Ava Engine"
+    },
+    {
+      "id": "datadog",
+      "name": "Datadog",
+      "category": "Observability",
+      "tagline": "Deep product — agents, metrics, dashboards, monitors everywhere.",
+      "accent": "#632CA6",
+      "url": "https://app.datadoghq.com",
+      "steps": 5,
+      "facts": 3,
+      "journey": [
+        "Log in",
+        "Open Dashboards",
+        "Create a dashboard",
+        "Add a widget",
+        "Graph a metric"
+      ],
+      "file": "playbooks/datadog.json",
+      "sha256": "8eb5528e01444887ff9823b3c7558b93dfea12aec496acac1ad2acebbb141f5c",
+      "author": "Ava Engine"
+    },
+    {
+      "id": "salesforce",
+      "name": "Salesforce",
+      "category": "Enterprise CRM",
+      "tagline": "Dense enterprise UI — objects, tabs, setup. Notoriously steep.",
+      "accent": "#00A1E0",
+      "url": "https://login.salesforce.com",
+      "steps": 5,
+      "facts": 3,
+      "journey": [
+        "Log in",
+        "Open the Sales app",
+        "Go to Leads",
+        "Create a record",
+        "Save and view it"
+      ],
+      "file": "playbooks/salesforce.json",
+      "sha256": "c7f0970b0bfa877089f93b43327a8696381e42e809dbae1931ee194915955943",
+      "author": "Ava Engine"
+    },
+    {
+      "id": "stripe",
+      "name": "Stripe",
+      "category": "Payments",
+      "tagline": "Powerful but sprawling — activation, test mode, API keys, first payment.",
+      "accent": "#635BFF",
+      "url": "https://dashboard.stripe.com",
+      "steps": 5,
+      "facts": 3,
+      "journey": [
+        "Sign in",
+        "Switch to Test mode",
+        "Open API keys",
+        "Copy your test keys",
+        "See the Payments tab"
+      ],
+      "file": "playbooks/stripe.json",
+      "sha256": "62718e2dc4d8cc097949884debcc486b012a7aaff248e110cf325c0354cee347",
+      "author": "Ava Engine"
+    },
+    {
+      "id": "supabase",
+      "name": "Supabase",
+      "category": "Developer backend",
+      "tagline": "Postgres, auth, storage, edge functions — a lot of surface for a newcomer.",
+      "accent": "#3ECF8E",
+      "url": "https://supabase.com/dashboard",
+      "steps": 5,
+      "facts": 5,
+      "journey": [
+        "Sign in",
+        "Create an organization",
+        "Create a project",
+        "Wait for provisioning",
+        "Open your dashboard"
+      ],
+      "file": "playbooks/supabase.json",
+      "sha256": "6d14140c2e8c2d2193001519e455e3648f06444ceef95c371e909a5ac11234e0",
+      "author": "Ava Engine"
+    },
+    {
+      "id": "todoist",
+      "name": "Todoist",
+      "category": "Productivity",
+      "tagline": "Dead-simple task manager — you're up and running in about a minute.",
+      "accent": "#E44332",
+      "url": "https://app.todoist.com",
+      "steps": 3,
+      "facts": 4,
+      "journey": [
+        "Sign in",
+        "Add your first task",
+        "See it in Today"
+      ],
+      "file": "playbooks/todoist.json",
+      "sha256": "5910966758f3871b02cbcda91baee7f4b20e2c5cc045a4418d33f970388f5f4e",
+      "author": "Ava Engine"
+    },
+    {
+      "id": "vercel",
+      "name": "Vercel",
+      "category": "Deployment",
+      "tagline": "Git-connected deploys, projects, domains, env vars.",
+      "accent": "#111827",
+      "url": "https://vercel.com/dashboard",
+      "steps": 5,
+      "facts": 3,
+      "journey": [
+        "Sign in",
+        "Add new project",
+        "Import a repo",
+        "Deploy",
+        "Open your live URL"
+      ],
+      "file": "playbooks/vercel.json",
+      "sha256": "0efd5a813eb6692323bda8ba9f11f604689d03f3ec16833dfe6ff0528e6f5948",
+      "author": "Ava Engine"
+    }
+  ]
+}

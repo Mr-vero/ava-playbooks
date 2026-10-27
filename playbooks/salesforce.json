@@ -1,0 +1,39 @@
+{
+  "id": "salesforce",
+  "name": "Salesforce",
+  "url": "https://login.salesforce.com",
+  "category": "Enterprise CRM",
+  "accent": "#00A1E0",
+  "tagline": "Dense enterprise UI — objects, tabs, setup. Notoriously steep.",
+  "firstWin": "your Sales home with a first lead or contact created",
+  "path": [
+    "log in to your org",
+    "make sure the Sales app is selected (App Launcher, top left)",
+    "open the Leads or Contacts tab",
+    "use the New button to create your first record",
+    "save and view it on the record page"
+  ],
+  "optional": "Customising fields and page layouts lives in Setup (gear icon) — a later step.",
+  "journey": [
+    "Log in",
+    "Open the Sales app",
+    "Go to Leads",
+    "Create a record",
+    "Save and view it"
+  ],
+  "etaMin": 6,
+  "knowledge": [
+    {
+      "keywords": "app launcher switch sales waffle",
+      "text": "The App Launcher is the grid/waffle icon, top-left. Use it to switch between apps like Sales, Service, and Marketing."
+    },
+    {
+      "keywords": "lead contact new record create",
+      "text": "Leads and Contacts each have a New button on their list view (top-right) to create a record. A Lead is an unqualified prospect; a Contact belongs to an Account."
+    },
+    {
+      "keywords": "setup customize fields gear",
+      "text": "Setup (the gear icon, top-right) is where you customise objects, fields, and layouts — separate from day-to-day record work."
+    }
+  ]
+}

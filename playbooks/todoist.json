@@ -1,0 +1,39 @@
+{
+  "id": "todoist",
+  "name": "Todoist",
+  "url": "https://app.todoist.com",
+  "category": "Productivity",
+  "accent": "#E44332",
+  "tagline": "Dead-simple task manager — you're up and running in about a minute.",
+  "firstWin": "your first task added and showing in your Today list",
+  "path": [
+    "sign in or sign up (Google or email — it's quick)",
+    "you land on the Today view; click 'Add task' at the top (or just press the A key)",
+    "type a task, leave it due Today, and press Enter — it appears in your list, and that's the win"
+  ],
+  "optional": "Projects, labels, and reminders are all there when you want them, but you don't need any of that to get started.",
+  "journey": [
+    "Sign in",
+    "Add your first task",
+    "See it in Today"
+  ],
+  "etaMin": 2,
+  "knowledge": [
+    {
+      "keywords": "add task new create shortcut a key",
+      "text": "To add a task, click 'Add task' at the top of the list or just press the A key. Type it and hit Enter to save."
+    },
+    {
+      "keywords": "today view due date schedule tomorrow",
+      "text": "The Today view shows what's due today. When adding a task you can type a due date in plain words like 'tomorrow 5pm' and Todoist schedules it automatically."
+    },
+    {
+      "keywords": "complete task done check circle",
+      "text": "Click the circle to the left of a task to complete it — it checks off and leaves your list."
+    },
+    {
+      "keywords": "project inbox organize sidebar",
+      "text": "Projects in the left sidebar group related tasks. You don't need one to start — new tasks land in Inbox or Today by default."
+    }
+  ]
+}

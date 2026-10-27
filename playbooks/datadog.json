@@ -1,0 +1,39 @@
+{
+  "id": "datadog",
+  "name": "Datadog",
+  "url": "https://app.datadoghq.com",
+  "category": "Observability",
+  "accent": "#632CA6",
+  "tagline": "Deep product — agents, metrics, dashboards, monitors everywhere.",
+  "firstWin": "a dashboard open with at least one metric graphed",
+  "path": [
+    "log in",
+    "open the Dashboards section from the left nav",
+    "create a new dashboard",
+    "add a timeseries widget",
+    "pick a metric to graph and save"
+  ],
+  "optional": "Installing the Agent to send real metrics is the bigger step; you can explore built-in integrations first.",
+  "journey": [
+    "Log in",
+    "Open Dashboards",
+    "Create a dashboard",
+    "Add a widget",
+    "Graph a metric"
+  ],
+  "etaMin": 6,
+  "knowledge": [
+    {
+      "keywords": "dashboard new create widget",
+      "text": "Dashboards are in the left nav. New Dashboard → then drag in a Timeseries widget to start graphing."
+    },
+    {
+      "keywords": "metric graph timeseries query",
+      "text": "In a Timeseries widget, pick a metric in the query editor (e.g. system.cpu.user). Built-in integration metrics appear even before you install the Agent."
+    },
+    {
+      "keywords": "agent install host metrics",
+      "text": "The Datadog Agent runs on your hosts to send metrics/logs. Install instructions are under Integrations → Agent."
+    }
+  ]
+}

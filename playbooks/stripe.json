@@ -1,0 +1,39 @@
+{
+  "id": "stripe",
+  "name": "Stripe",
+  "url": "https://dashboard.stripe.com",
+  "category": "Payments",
+  "accent": "#635BFF",
+  "tagline": "Powerful but sprawling — activation, test mode, API keys, first payment.",
+  "firstWin": "your dashboard in test mode with your API keys located",
+  "path": [
+    "sign in or create an account",
+    "confirm you're in Test mode (toggle, top right)",
+    "open the Developers → API keys page",
+    "note the publishable + secret test keys",
+    "explore the Payments tab where charges will appear"
+  ],
+  "optional": "Activating live payments needs business details; that can wait until after they've tested.",
+  "journey": [
+    "Sign in",
+    "Switch to Test mode",
+    "Open API keys",
+    "Copy your test keys",
+    "See the Payments tab"
+  ],
+  "etaMin": 5,
+  "knowledge": [
+    {
+      "keywords": "test mode live toggle sandbox",
+      "text": "The Test mode toggle is top-right. In test mode no real money moves and you use test card 4242 4242 4242 4242. Live mode needs account activation with business details."
+    },
+    {
+      "keywords": "api keys publishable secret developers",
+      "text": "API keys are under Developers → API keys. The publishable key (pk_) goes in client code; the secret key (sk_) must stay on your server."
+    },
+    {
+      "keywords": "payment first charge test card",
+      "text": "Use card number 4242 4242 4242 4242 with any future expiry and any CVC to create a successful test payment."
+    }
+  ]
+}

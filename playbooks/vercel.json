@@ -1,0 +1,39 @@
+{
+  "id": "vercel",
+  "name": "Vercel",
+  "url": "https://vercel.com/dashboard",
+  "category": "Deployment",
+  "accent": "#111827",
+  "tagline": "Git-connected deploys, projects, domains, env vars.",
+  "firstWin": "your first project deployed and its production URL live",
+  "path": [
+    "sign in (usually with GitHub)",
+    "click Add New → Project",
+    "import a Git repository",
+    "confirm the framework preset and deploy",
+    "open the production URL when the build finishes"
+  ],
+  "optional": "Custom domains and environment variables are set per-project after the first deploy.",
+  "journey": [
+    "Sign in",
+    "Add new project",
+    "Import a repo",
+    "Deploy",
+    "Open your live URL"
+  ],
+  "etaMin": 5,
+  "knowledge": [
+    {
+      "keywords": "import repository git github project",
+      "text": "Add New → Project lets you import a Git repo. Vercel auto-detects the framework (Next.js, Vite, etc.) — usually no config needed."
+    },
+    {
+      "keywords": "environment variables env project settings",
+      "text": "Environment variables are set per project under Settings → Environment Variables, and apply to Production/Preview/Development."
+    },
+    {
+      "keywords": "domain custom production url",
+      "text": "Every deploy gets a vercel.app URL. Add a custom domain under the project's Domains tab."
+    }
+  ]
+}

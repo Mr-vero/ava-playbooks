@@ -1,0 +1,39 @@
+{
+  "id": "aws",
+  "name": "AWS Console",
+  "url": "https://console.aws.amazon.com",
+  "category": "Cloud infrastructure",
+  "accent": "#FF9900",
+  "tagline": "The classic maze — regions, services, IAM. Easy to get lost.",
+  "firstWin": "the right region selected and the EC2 dashboard open",
+  "path": [
+    "sign in to the console (root or IAM user)",
+    "check the region selector, top right — pick the closest region",
+    "search for the service you need in the top search bar (e.g. EC2)",
+    "open that service's dashboard",
+    "find the primary create/launch action"
+  ],
+  "optional": "Setting up billing alerts and an IAM user instead of root is good hygiene, but not needed to look around.",
+  "journey": [
+    "Sign in",
+    "Choose your region",
+    "Find your service",
+    "Open its dashboard",
+    "Start your first resource"
+  ],
+  "etaMin": 7,
+  "knowledge": [
+    {
+      "keywords": "region selector location resources",
+      "text": "The region selector is top-right. Resources are region-specific — if something you created 'disappears', check you're in the same region you made it in."
+    },
+    {
+      "keywords": "iam root user security",
+      "text": "Avoid using the root account for daily work. Create an IAM user with appropriate permissions and sign in as that instead."
+    },
+    {
+      "keywords": "service search ec2 s3 find",
+      "text": "The top search bar jumps to any service by name — type 'EC2', 'S3', 'Lambda' etc. rather than hunting the menu."
+    }
+  ]
+}
